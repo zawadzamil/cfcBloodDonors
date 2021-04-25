@@ -10,6 +10,11 @@ class DonorManagement extends Controller
     public function addDonor(){
         return view('become_a_donor');
     }
+    public function allDonor(){
+       $data =  Donor::all();
+        return view('allDonor',compact('data'));
+
+    }
     public function addDonorToDatabase(Request $value){
         // Check For Email Already Exists or Not
         if (Donor::where('email', '=',$value->get('email'))->exists()) {
@@ -26,7 +31,7 @@ class DonorManagement extends Controller
         $donor_data ->save();
 
 
-        return redirect()->back()->with('success', 'You Data is Saved Successfully');
+        return redirect()->back()->with('success', ' Data is Saved Successfully');
 
     }
 }

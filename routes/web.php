@@ -33,6 +33,14 @@ Route::get('team', function () {
 Route::get('donation', function () {
     return view('donation');
 });
+Route::get('adminPannel', function () {
+    return view('adminPannel');
+});
+Route::get('addDonor', function () {
+    return view('addDonor');
+});
+Route::get('allDonor', 'App\Http\Controllers\DonorManagement@allDonor');
+
 Route::get('become_a_donor', 'App\Http\Controllers\DonorManagement@addDonor');
 Route::post('addNewDonor', 'App\Http\Controllers\DonorManagement@addDonorToDatabase');
 Route::get('register', 'App\Http\Controllers\AdminMangement@register');

@@ -86,16 +86,14 @@
     </section>
 
     <!--about section-->
-    <section class="feature-section section bg-dark">
+    <section class="feature-section section bg-dark text-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="image-content">
                         <div class="section-title text-center">
                             <h3 class="text-light">Search for Blood Donors</h3>
-                        </div>
-                        <div class="box" style=" position: absolute;margin-top: 30px; display: inline-block;">
-                            <select style="background-color: #0563af;margin-left: 150px;
+                            <select style="background-color: #0563af;margin-top: 10px;
   color: white;
   padding: 12px;
   width: 250px;
@@ -111,26 +109,12 @@
                                 <option>Option 4</option>
                                 <option>Option 5</option>
                             </select>
-                            <select style="background-color: #7b13af;margin-left: 50px;
-  color: white;
-  padding: 12px;
-  width: 350px;
-  border: none;
-  font-size: 20px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-  -webkit-appearance: button;
+                            <button class="btn btn-danger " style="margin-left: 50px;" type="submit">Search</button>
+                        </div>
 
-  outline: none;">
-                                <option value="" selected="selected" disabled="disabled">Select Location</option>
-                                <option>Magura</option>
-                                <option>Beroil</option>
-                                <option>Vangura</option>
-                                <option>Nohata</option>
-                                <option>Panighata</option>
-                                <option>Polita</option>
-                                <option>Shingra</option>
-                            </select>
-                            <button class="btn btn-danger" style="margin-left: 50px;" type="submit">Search</button>
+
+
+
                         </div>
 
 
