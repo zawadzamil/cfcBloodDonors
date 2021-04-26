@@ -30,17 +30,17 @@ Route::get('contact', function () {
 Route::get('team', function () {
     return view('team');
 });
-Route::get('donation', function () {
-    return view('donation');
-});
+
 Route::get('adminPannel', function () {
     return view('adminPannel');
 });
 Route::get('addDonor', function () {
     return view('addDonor');
 });
+Route::get('donation', 'App\Http\Controllers\PostManagement@allPost');
 Route::get('allDonor', 'App\Http\Controllers\DonorManagement@allDonor');
-Route::get('bloodpost', 'App\Http\Controllers\DonorManagement@bloodPost');
+Route::get('bloodpost', 'App\Http\Controllers\PostManagement@bloodPost');
+Route::post('addPost', 'App\Http\Controllers\PostManagement@addPosttoDatabase');
 
 Route::get('become_a_donor', 'App\Http\Controllers\DonorManagement@addDonor');
 Route::post('addNewDonor', 'App\Http\Controllers\DonorManagement@addDonorToDatabase');

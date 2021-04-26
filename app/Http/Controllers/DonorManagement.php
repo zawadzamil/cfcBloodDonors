@@ -19,12 +19,7 @@ class DonorManagement extends Controller
 
     }
 
-    public function bloodPost()
-    {
 
-        return view('bloodpost');
-
-    }
 
     public function addDonorToDatabase(Request $value)
     {

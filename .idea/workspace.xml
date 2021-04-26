@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="Another Comit">
-      <change afterPath="$PROJECT_DIR$/resources/views/bloodpost.blade.php" afterDir="false" />
+    <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostManagement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_26_064215_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/0d75a2d20c354a633687d513e5be2266.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/50f275f41b87727f1ed0f42a0dd4fa16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/605995d1ef71f8f02de541fcdca58e1a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/7076c0f7a7298c87339d1de8d07a0615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/90be8d936f22d12391a90297b534be9e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/c2d8bc3c8b7a21e4cf340100b7a65362.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/postImages/f38dc117339140babc8e4a119fa13fc2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/addDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/addDonor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/allDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/allDonor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/bloodpost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bloodpost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/donation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/donation.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +154,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -168,24 +181,59 @@
       <updated>1619330705376</updated>
       <workItem from="1619330708794" duration="1424000" />
       <workItem from="1619369368508" duration="15337000" />
-      <workItem from="1619414812784" duration="2054000" />
+      <workItem from="1619414812784" duration="8863000" />
+      <workItem from="1619432120670" duration="3348000" />
+      <workItem from="1619455295295" duration="261000" />
     </task>
+    <task id="LOCAL-00001" summary="4th Commit">
+      <created>1619417330712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619417330713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Another Comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another Comit" />
+    <MESSAGE value="4th Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th Commit" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1619417174889">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619434229440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1619417174889" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619434229440" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1619417326871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1619417326871" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1619417451827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1619417451827" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1619386843602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,10 +250,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619386843602" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619414830683">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1619417456918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619414830683" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1619417456918" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619455425197">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619455425197" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1619370066120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
