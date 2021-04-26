@@ -7,26 +7,38 @@ use Illuminate\Http\Request;
 
 class DonorManagement extends Controller
 {
-    public function addDonor(){
+    public function addDonor()
+    {
         return view('become_a_donor');
     }
-    public function allDonor(){
-       $data =  Donor::all();
-        return view('allDonor',compact('data'));
+
+    public function allDonor()
+    {
+        $data = Donor::all();
+        return view('allDonor', compact('data'));
 
     }
-    public function addDonorToDatabase(Request $value){
+
+    public function bloodPost()
+    {
+
+        return view('bloodpost');
+
+    }
+
+    public function addDonorToDatabase(Request $value)
+    {
         // Check For Email Already Exists or Not
-        if (Donor::where('email', '=',$value->get('email'))->exists()) {
+        if (Donor::where('email', '=', $value->get('email'))->exists()) {
             return redirect()->back()->with('failed', 'Email/User  Already Exists.');
         }
         $donor_data = new Donor([
-            'name' =>$value ->get('name'),
-            'email' =>$value ->get('email'),
-            'phone' =>$value ->get('phone'),
-            'group' =>$value ->get('group'),
-            'address' =>$value ->get('address'),
-            'date' =>$value ->get('date'),
+            'name' => $value->get('name'),
+            'email' => $value->get('email'),
+            'phone' => $value->get('phone'),
+            'group' => $value->get('group'),
+            'address' => $value->get('address'),
+            'date' => $value->get('date'),
         ]);
         $donor_data ->save();
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,11 +10,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>Softy Pinko - Bootstrap 4.0 Theme</title>
-<!--
-SOFTY PINKO
-https://templatemo.com/tm-535-softy-pinko
--->
+    <title>CFC Admin Panel</title>
+    <!--
+    SOFTY PINKO
+    https://templatemo.com/tm-535-softy-pinko
+    -->
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="public/admin_pannel/css/bootstrap.min.css">
@@ -23,19 +23,19 @@ https://templatemo.com/tm-535-softy-pinko
 
     <link rel="stylesheet" href="public/admin_pannel/css/templatemo-softy-pinko.css">
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
-    <!-- ***** Preloader End ***** -->
+</div>
+<!-- ***** Preloader End ***** -->
 
 
 
@@ -78,13 +78,16 @@ https://templatemo.com/tm-535-softy-pinko
                         <!-- ***** Features Small Item End ***** -->
 
                         <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                             data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                             <div class="features-small-item">
                                 <div class="icon">
                                     <i><img src="public/admin_pannel/images/featured-item-01.png" alt=""></i>
                                 </div>
                                 <h5 class="features-title">Add Donor</h5>
-                                <button type="button " onclick="document.location='{{url('addDonor')}}'" class="btn btn-success">Add</button>
+                                <button type="button " onclick="document.location='{{url('addDonor')}}'"
+                                        class="btn btn-success">Add
+                                </button>
 
 
                             </div>
@@ -92,14 +95,20 @@ https://templatemo.com/tm-535-softy-pinko
                         <!-- ***** Features Small Item End ***** -->
 
                         <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                             data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                             <div class="features-small-item">
                                 <div class="icon">
                                     <i><img src="public/admin_pannel/images/featured-item-01.png" alt=""></i>
                                 </div>
-                                <h5 class="features-title">Ultimate Marketing</h5>
+                                <h5 class="features-title">Create A Donation Post</h5>
+
+                                <button type="button " onclick="document.location='{{url('bloodpost')}}'"
+                                        class="btn btn-info">Create
+                                </button>
 
                             </div>
+
                         </div>
                         <!-- ***** Features Small Item End ***** -->
                     </div>

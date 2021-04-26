@@ -1,57 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/css/flex-slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/css/templatemo-softy-pinko.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/Flaticon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/flexslider-icon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/flexslider-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/flexslider-icon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/flexslider-icon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/admin_Pannlbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/banner-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/blog-item-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/blog-item-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/blog-item-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/circle-dec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/donorLogoAdmin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/featured-item-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/fun-facts-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/left-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/right-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/testimonial-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/work-process-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/images/work-process-item-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/imgfix.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/jquery-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/scrollreveal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_pannel/js/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/addDonor.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/allDonor.blade.php" afterDir="false" />
+    <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="Another Comit">
+      <change afterPath="$PROJECT_DIR$/resources/views/bloodpost.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminMangement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminMangement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/addDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/addDonor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/allDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/allDonor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619330705376</updated>
       <workItem from="1619330708794" duration="1424000" />
-      <workItem from="1619369368508" duration="14925000" />
+      <workItem from="1619369368508" duration="15337000" />
+      <workItem from="1619414812784" duration="2054000" />
     </task>
     <servers />
   </component>
@@ -220,28 +177,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Another Comit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another Comit" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1619369676105">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1619417174889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619369676105" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1619369676104">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1619417174889" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1619386843602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619369676104" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1619369676102">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619386843602" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1619386843602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619369676102" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1619369676104">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619386843602" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1619386843602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619369676104" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619369436788">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619386843602" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1619386843602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619369436788" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619386843602" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619414830683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619414830683" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1619370066120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
