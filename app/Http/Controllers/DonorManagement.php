@@ -12,6 +12,12 @@ class DonorManagement extends Controller
         return view('become_a_donor');
     }
 
+    public function ediTDonor($id)
+    {
+        $data = Donor::find($id);
+        return view('edit_donor', compact('data'));
+    }
+
     public function allDonor()
     {
         $data = Donor::all();
@@ -19,6 +25,29 @@ class DonorManagement extends Controller
 
     }
 
+    public function deleteDonor($id)
+    {
+        $delete_data = Donor::find($id);
+        $delete_data->delete();
+        return redirect()->back();
+
+
+    }
+
+    public function updateDonor(Request $request, $id)
+    {
+        $update = Donor::find($id);
+        $update->name = $request->get('name');
+        $update->email = $request->get('email');
+        $update->phone = $request->get('phone');
+        $update->group = $request->get('group');
+        $update->address = $request->get('address');
+        $update->date = $request->get('date');
+        $update->save();
+        return redirect('allDonor');
+
+
+    }
 
 
     public function addDonorToDatabase(Request $value)

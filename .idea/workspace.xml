@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostManagement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_26_064215_create_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/0d75a2d20c354a633687d513e5be2266.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/50f275f41b87727f1ed0f42a0dd4fa16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/605995d1ef71f8f02de541fcdca58e1a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/7076c0f7a7298c87339d1de8d07a0615.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/90be8d936f22d12391a90297b534be9e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/c2d8bc3c8b7a21e4cf340100b7a65362.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/f38dc117339140babc8e4a119fa13fc2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/addDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/addDonor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/allDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/allDonor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/bloodpost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bloodpost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/donation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/donation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit_donor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit_donor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +177,9 @@
       <workItem from="1619369368508" duration="15337000" />
       <workItem from="1619414812784" duration="8863000" />
       <workItem from="1619432120670" duration="3348000" />
-      <workItem from="1619455295295" duration="261000" />
+      <workItem from="1619455295295" duration="4391000" />
+      <workItem from="1619501361924" duration="6627000" />
+      <workItem from="1619516337963" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="4th Commit">
       <created>1619417330712</created>
@@ -254,13 +250,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1619417456918" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619455425197">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619516476839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619455425197" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619516476839" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1619370066120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1619370066120" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/addDonor.blade.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

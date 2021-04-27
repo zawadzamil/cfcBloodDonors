@@ -37,15 +37,24 @@ Route::get('adminPannel', function () {
 Route::get('addDonor', function () {
     return view('addDonor');
 });
+Route::get('edit_donor', function () {
+    return view('edit_donor');
+});
+
 Route::get('donation', 'App\Http\Controllers\PostManagement@allPost');
 Route::get('allDonor', 'App\Http\Controllers\DonorManagement@allDonor');
+Route::get('delete_donor/{id}', 'App\Http\Controllers\DonorManagement@deleteDonor');
 Route::get('bloodpost', 'App\Http\Controllers\PostManagement@bloodPost');
 Route::post('addPost', 'App\Http\Controllers\PostManagement@addPosttoDatabase');
 
 Route::get('become_a_donor', 'App\Http\Controllers\DonorManagement@addDonor');
 Route::post('addNewDonor', 'App\Http\Controllers\DonorManagement@addDonorToDatabase');
+Route::post('updateDonor/{id}', 'App\Http\Controllers\DonorManagement@updateDonor');
 Route::get('register', 'App\Http\Controllers\AdminMangement@register');
 Route::post('stroreAdmin', 'App\Http\Controllers\AdminMangement@storeUser');
 
 Route::get('/admin', 'App\Http\Controllers\AdminMangement@admin')->name('admin');
 Route::post('adminValidate', 'App\Http\Controllers\AdminMangement@authenticate');
+
+Route::get('edit_donor/{id}', 'App\Http\Controllers\DonorManagement@ediTDonor');
+Route::post('addNewDonor', 'App\Http\Controllers\DonorManagement@addDonorToDatabase');
