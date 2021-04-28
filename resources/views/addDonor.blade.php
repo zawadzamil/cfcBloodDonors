@@ -73,7 +73,7 @@
                             <!-- LAst Donated -->
                             <div class="col-lg-12" style="margin-top: 5px;">
                                 <div class="container">
-                                    <h6 style="text-align: left;">Last Donated Blood</h6>
+                                    <h6 style="text-align: left;">Last Donated Blood <span>(--Or Leave it as it is--)</span></h6>
                                     <br/>
                                     <input name="date" type="date" id="datepicker" class="form-control" width="270"/>
                                     <p style="text-align: right;"> Click Above Date Icon to Pick Up a Date</p>

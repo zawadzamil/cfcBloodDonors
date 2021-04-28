@@ -24,12 +24,12 @@ Route::get('about', function () {
 Route::get('blog', function () {
     return view('blog');
 });
-Route::get('contact', function () {
-    return view('contact');
-});
-Route::get('team', function () {
-    return view('team');
-});
+//Route::get('contact', function () {
+//    return view('contact');
+//});
+//Route::get('team', function () {
+//    return view('team');
+//});
 
 Route::get('adminPannel', function () {
     return view('adminPannel');
@@ -43,6 +43,13 @@ Route::get('edit_donor', function () {
 
 Route::get('donation', 'App\Http\Controllers\PostManagement@allPost');
 Route::get('allDonor', 'App\Http\Controllers\DonorManagement@allDonor');
+Route::get('team', 'App\Http\Controllers\DonorManagement@allDonorTeam');
+
+
+Route::get('contact', 'App\Http\Controllers\RequestManagement@showContact');
+Route::post('addMessage', 'App\Http\Controllers\RequestManagement@addMessagetoDatabase');
+
+
 Route::get('delete_donor/{id}', 'App\Http\Controllers\DonorManagement@deleteDonor');
 Route::get('bloodpost', 'App\Http\Controllers\PostManagement@bloodPost');
 Route::post('addPost', 'App\Http\Controllers\PostManagement@addPosttoDatabase');

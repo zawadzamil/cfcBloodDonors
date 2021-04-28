@@ -48,48 +48,7 @@
 
 
 
-    <!--header top-->
-   <!-- <div class="header-top bg-dark">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
 
-                </div>
-                <div class="col-md-6">
-                    <div class="top-right text-center text-md-right">
-                        <ul class="social-links">
-                            <li>
-                                <a href="https://themefisher.com/" aria-label="facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://themefisher.com/" aria-label="twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://themefisher.com/" aria-label="google-plus">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://themefisher.com/" aria-label="instagram">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://themefisher.com/" aria-label="pinterest">
-                                    <i class="fab fa-pinterest-p"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!--header top-->
 
     <!--Header Upper-->
     <section class="header-uper bg-dark bg-image" style="background-image: url(public/images/bg.jpg    );">
@@ -149,7 +108,7 @@
                         <a class="nav-link" href="{{ url('become_a_donor') }}">Become a Donor</a>
                     </li>
                     <li class="nav-item @@team">
-                        <a class="nav-link" href="{{ url('team') }}">Team</a>
+                        <a class="nav-link" href="{{ url('team') }}">Donors</a>
                     </li>
 
                     <li class="nav-item  @@blogs">

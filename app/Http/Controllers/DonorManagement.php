@@ -24,6 +24,12 @@ class DonorManagement extends Controller
         return view('allDonor', compact('data'));
 
     }
+    public function allDonorTeam()
+    {
+        $data = Donor::all();
+        return view('team', compact('data'));
+
+    }
 
     public function deleteDonor($id)
     {
