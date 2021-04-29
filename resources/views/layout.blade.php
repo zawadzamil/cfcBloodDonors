@@ -111,12 +111,11 @@
                         <a class="nav-link" href="{{ url('team') }}">Donors</a>
                     </li>
 
-                    <li class="nav-item  @@blogs">
-                        <a class="nav-link " href="{{ url('blog') }}" >Blogs</a>
-                    </li>
+
                     <li class="nav-item @@contact">
-                        <a class="nav-link" href="{{ url('contact') }}">Contact</a>
-                    </li> <li class="nav-item @@admin">
+                        <a class="nav-link" href="{{ url('contact') }}">Request for Blood</a>
+                    </li>
+                    <li class="nav-item @@admin">
                         <a class="nav-link" href="{{ url('admin') }}">Admin</a>
                     </li>
                 </ul>

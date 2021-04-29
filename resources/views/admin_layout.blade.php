@@ -61,7 +61,7 @@
             <div class="col-lg-12">
                 <div class="row">
                     <!-- ***** Features Small Item Start ***** -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6"
                          data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                         <div class="features-small-item">
                             <div class="icon">
@@ -77,7 +77,7 @@
                     <!-- ***** Features Small Item End ***** -->
 
                     <!-- ***** Features Small Item Start ***** -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6"
                          data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                         <div class="features-small-item">
                             <div class="icon">
@@ -94,7 +94,7 @@
                     <!-- ***** Features Small Item End ***** -->
 
                     <!-- ***** Features Small Item Start ***** -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6"
                          data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                         <div class="features-small-item">
                             <div class="icon">
@@ -108,6 +108,19 @@
                         </div>
                     </div>
                     <!-- ***** Features Small Item End ***** -->
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6"
+                         data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                        <div class="features-small-item">
+                            <div class="icon">
+                                <i><img src="public/admin_pannel/images/featured-item-01.png" alt=""></i>
+                            </div>
+                            <h5 class="features-title">Messages</h5>
+                            <button type="button " onclick="document.location='{{url('message')}}'"
+                                    class="btn btn-info">View
+                            </button>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

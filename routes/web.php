@@ -65,3 +65,6 @@ Route::post('adminValidate', 'App\Http\Controllers\AdminMangement@authenticate')
 
 Route::get('edit_donor/{id}', 'App\Http\Controllers\DonorManagement@ediTDonor');
 Route::post('addNewDonor', 'App\Http\Controllers\DonorManagement@addDonorToDatabase');
+
+Route::get('message', 'App\Http\Controllers\RequestManagement@allMessage');
+Route::get('delete_message/{id}', 'App\Http\Controllers\RequestManagement@deleteMessage');
