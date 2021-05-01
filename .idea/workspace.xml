@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/postImages/22b373ff3373530c233a87117325a61b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/4cb30dcfe4f153917ad3b97d9f646c55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/5260c70fbecacfe2481240275ee7ed13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/5e2f0c0704e083bcd2a629d752870e71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/postImages/df0a8126f128e98cd0d164208692b8d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/searchResult.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminMangement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminMangement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonorManagement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostManagement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminPannel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin_layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/team.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +181,7 @@
       <workItem from="1619673756342" duration="9062000" />
       <workItem from="1619761720999" duration="3840000" />
       <workItem from="1619887813532" duration="7010000" />
-      <workItem from="1619906680687" duration="1311000" />
+      <workItem from="1619906680687" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="4th Commit">
       <created>1619417330712</created>
@@ -284,6 +271,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1619682555469" />
+    <state x="448" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619910188288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1619910188288" />
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619888981483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

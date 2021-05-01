@@ -23,7 +23,7 @@
                         <td>{{$d ->id}}</td>
                         <td>{{$d ->name}}</td>
                         <td>{{$d ->email}}</td>
-                        <td>{{$d ->phone}}</td>
+                        <td>**Hidden**</td>
                         <td>{{$d ->group}}</td>
                         <td>{{$d ->address}}</td>
                         <td>{{$d ->date}}</td>
