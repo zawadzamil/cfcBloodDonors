@@ -137,12 +137,12 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-lg-5 mb-6 mb-lg-0">
                         <div class="about-widget">
                             <div class="footer-logo">
                                 <figure>
                                     <a href="{{url("/")}}">
-                                        <img loading="lazy" class="img-fluid" src="public/images/logogog.png" alt="medic">
+                                        <img loading="lazy" class="img-fluid" style="width: 70%;height: 80%;" src="public/images/logogog.png" alt="medic">
                                     </a>
                                 </figure>
                             </div>
@@ -174,31 +174,15 @@
                         </div>
                     </div>
                     <!--Srevices-->
-                    <div class="col-lg-3 col-md-5 mb-3 mb-md-0" style="margin-top: 20px;">
-                        <h2>Services</h2>
-                        <ul class="menu-link">
-                            <li>
-                                <a href="service.html">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>Orthopadic Liabilities</a>
-                            </li>
-                            <li>
-                                <a href="service.html">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>Dental Clinic</a>
-                            </li>
-                            <li>
-                                <a href="service.html">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>Dormamu Clinic</a>
-                            </li>
-                            <li>
-                                <a href="service.html">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>Psycological Clinic</a>
-                            </li>
-                            <li>
-                                <a href="service.html">
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>Gynaecological Clinic</a>
-                            </li>
-                        </ul>
-                    </div>
+<?php
+
+use App\Models\Post;
+use Illuminate\Http\Request;
+$last2 = Post::orderBy('id', 'DESC')->first();
+$last3 = Post::orderBy('id', 'DESC')->skip(1)->first();
+
+
+?>
                     <!--Recent POsts-->
                     <div class="col-lg-4 col-md-7"  style="margin-top: 20px;">
                         <div class="social-links">
@@ -208,12 +192,15 @@
                                     <div class="media">
                                         <div class="media-left mr-3">
                                             <a href="blog-details.html">
-                                                <img loading="lazy" src="public/images/blog/post-thumb-small.jpg" alt="post-thumb">
+                                                <img loading="lazy" src="public/postImages/{{$last2 ->photo}}" alt="post-thumb">
                                             </a>
                                         </div>
                                         <div class="media-body">
-                                            <h5><a href="blog-details.html">A lesson adip isicing</a></h5>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                                            <h5><a href="blog-details.html">{{$last2 ->name}}</a></h5>
+                                            <p>Blood Group :{{$last2 ->group}} </p>
+                                            <p>Collected By :{{$last2 ->cname}} </p>
+                                            <p>Location :{{$last2 ->address}} </p>
+                                            <p>Date :{{$last2 ->date}} </p>
                                         </div>
                                     </div>
                                 </li>
@@ -221,12 +208,15 @@
                                     <div class="media">
                                         <div class="media-left mr-3">
                                             <a href="blog-details.html">
-                                                <img loading="lazy" src="public/images/blog/post-thumb-small.jpg" alt="post-thumb">
+                                                <img loading="lazy" src="public/postImages/{{$last3 ->photo}}" alt="post-thumb">
                                             </a>
                                         </div>
                                         <div class="media-body">
-                                            <h5><a href="blog-details.html">How to make an event</a></h5>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                                            <h5><a href="blog-details.html">{{$last3 ->name}}</a></h5>
+                                            <p>Blood Group :{{$last3 ->group}} </p>
+                                            <p>Collected By :{{$last3 ->cname}} </p>
+                                            <p>Location :{{$last3 ->address}} </p>
+                                            <p>Date :{{$last3 ->date}} </p>
                                         </div>
                                     </div>
                                 </li>
@@ -240,7 +230,7 @@
         <div class="footer-bottom">
             <div class="container clearfix">
                 <div class="copyright-text">
-                    <p>&copy; Copyright 2021. Designed &amp; Developed  with &hearts; by Zawad Zamil [App Version Beta 1.1.0]</p>
+                    <p>&copy; Copyright 2021. Designed &amp; Developed  with &hearts; by Zawad Zamil [App Version Beta 1.3.0]</p>
                 </div>
                 <ul class="footer-bottom-link">
                     <li>

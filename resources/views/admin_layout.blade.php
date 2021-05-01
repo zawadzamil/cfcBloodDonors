@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="public/admin_pannel/css/font-awesome.css">
 
     <link rel="stylesheet" href="public/admin_pannel/css/templatemo-softy-pinko.css">
+    <link rel="icon" href="public/images/favicon2.png" type="image/x-icon">
 
 </head>
 
@@ -137,18 +138,15 @@
 
 <!-- ***** Footer Start ***** -->
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <ul class="social">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="container" >
+        <nav class="navbar navbar-light  bg-transparent" >
+            <form class="form-inline"  style="margin-left: 45%; margin-right: 50%;margin: auto;">
+                <button class="btn bg-transparent"  type="button" onclick="document.location='{{url('/')}}'">Home</button>
+                <button class="btn bg-transparent"  type="button" onclick="document.location='{{url('adminPannel')}}'">Admin Panel Home</button>
+                <button class="btn bg-transparent" type="button" onclick="document.location='{{url('logout')}}'">Logout</button>
+
+            </form>
+        </nav>
         <div class="row">
             <div class="col-lg-12">
                 <p class="copyright">Copyright &copy; 2020 Softy Pinko Company - Design: TemplateMo</p>

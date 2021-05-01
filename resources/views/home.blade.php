@@ -93,7 +93,9 @@
                     <div class="image-content">
                         <div class="section-title text-center">
                             <h3 class="text-light">Search for Blood Donors</h3>
-                            <select style="background-color: #0563af;margin-top: 10px;
+                            <form action="{{url('searchDonor')}}" method="POST">
+                                @csrf
+                            <select  style="background-color: #0563af;margin-top: 10px;
   color: white;
   padding: 12px;
   width: 250px;
@@ -102,14 +104,19 @@
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   -webkit-appearance: button;
 
-  outline: none;">
+  outline: none;" name="group" required>
                                 <option value="" selected="selected" disabled="disabled">Select Blood Group</option>
-                                <option>Option 2</option>
-                                <option>Option 3</option>
-                                <option>Option 4</option>
-                                <option>Option 5</option>
+                                <option value="A+">A+</option>
+                                <option value="B+">B+</option>
+                                <option value="O+">O+</option>
+                                <option value="AB">AB+</option>
+                                <option value="A-">A-</option>
+                                <option value="B-">B-</option>
+                                <option value="O-">O-</option>
+                                <option value="AB-">AB-</option>
                             </select>
                             <button class="btn btn-danger " style="margin-left: 50px;" type="submit">Search</button>
+                            </form>
                         </div>
 
 

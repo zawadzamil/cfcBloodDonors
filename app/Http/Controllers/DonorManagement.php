@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Donor;
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class DonorManagement extends Controller
@@ -30,6 +31,20 @@ class DonorManagement extends Controller
         return view('team', compact('data'));
 
     }
+    public function search(Request $request)
+    {
+        $data = $request ->get('group');
+        $allDonor = Donor::all()->where('group',$data);
+        return view('searchResult', compact('allDonor'));
+
+    }
+//    public function adminPannelCounter()
+//    {
+//        $donors = Donor::all() ->count();
+//        $posts = Post::all() ->count();
+//        return view('adminPannel', compact('donors','posts'));
+//
+//    }
 
     public function deleteDonor($id)
     {

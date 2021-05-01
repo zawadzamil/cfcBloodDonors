@@ -31,12 +31,16 @@ Route::get('blog', function () {
 //    return view('team');
 //});
 
-Route::get('adminPannel', function () {
-    return view('adminPannel');
-});
+//Route::get('adminPannel', function () {
+//    return view('adminPannel');
+//});
 Route::get('addDonor', function () {
     return view('addDonor');
 });
+Route::get('searchResult', function () {
+    return view('searchResult');
+});
+
 Route::get('edit_donor', function () {
     return view('edit_donor');
 });
@@ -68,3 +72,12 @@ Route::post('addNewDonor', 'App\Http\Controllers\DonorManagement@addDonorToDatab
 
 Route::get('message', 'App\Http\Controllers\RequestManagement@allMessage');
 Route::get('delete_message/{id}', 'App\Http\Controllers\RequestManagement@deleteMessage');
+
+//Route::get('adminPannel', 'App\Http\Controllers\DonorManagement@adminPannelCounter');
+Route::get('adminPannel', 'App\Http\Controllers\AdminMangement@dashboard');
+
+Route::get('logout', '\App\Http\Controllers\AdminMangement@logout');
+
+Route::post('searchDonor', '\App\Http\Controllers\DonorManagement@search');
+
+

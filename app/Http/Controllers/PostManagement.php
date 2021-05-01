@@ -17,16 +17,18 @@ class PostManagement extends Controller
     public function allPost()
     {
 
-        $data = Post::all();
+        $data = Post::orderBy('id', 'DESC')->get();
         return view('donation', compact('data'));
 
-    }
-    public function allDonor()
-    {
-        $data = Donor::all();
-        return view('allDonor', compact('data'));
 
     }
+
+//    public function lastPOst()
+//    {
+//        $last =  Post::orderBy('id', 'DESC')->first();
+//        return view('layout', compact('last'));
+//
+//    }
     public function addPosttoDatabase(Request $value)
     {
 
