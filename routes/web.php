@@ -81,3 +81,7 @@ Route::get('logout', '\App\Http\Controllers\AdminMangement@logout');
 Route::post('searchDonor', '\App\Http\Controllers\DonorManagement@search');
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
