@@ -191,33 +191,33 @@ $last3 = Post::orderBy('id', 'DESC')->skip(1)->first();
                                 <li class="item">
                                     <div class="media">
                                         <div class="media-left mr-3">
-{{--                                            <a href="blog-details.html">--}}
-{{--                                                <img loading="lazy" src="public/postImages/{{$last2 ->photo}}" alt="post-thumb">--}}
-{{--                                            </a>--}}
+                                            <a href="blog-details.html">
+                                                <img loading="lazy" src="public/postImages/rezoan.jpg" alt="post-thumb">
+                                            </a>
                                         </div>
-{{--                                        <div class="media-body">--}}
-{{--                                            <h5><a href="blog-details.html">{{$last2 ->name}}</a></h5>--}}
-{{--                                            <p>Blood Group :{{$last2 ->group}} </p>--}}
-{{--                                            <p>Collected By :{{$last2 ->cname}} </p>--}}
-{{--                                            <p>Location :{{$last2 ->address}} </p>--}}
-{{--                                            <p>Date :{{$last2 ->date}} </p>--}}
-{{--                                        </div>--}}
+                                        <div class="media-body">
+                                            <h5><a href="blog-details.html">Md Rezwoan</a></h5>
+                                            <p>Blood Group :A+ </p>
+                                            <p>Collected By :Kazi Zinnat</p>
+                                            <p>Location :Magura </p>
+                                            <p>Date :22/02/2021 </p>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="item">
                                     <div class="media">
                                         <div class="media-left mr-3">
-{{--                                            <a href="blog-details.html">--}}
-{{--                                                <img loading="lazy" src="public/postImages/{{$last3 ->photo}}" alt="post-thumb">--}}
-{{--                                            </a>--}}
+                                            <a href="blog-details.html">
+                                                <img loading="lazy" src="public/postImages/mamun.jpg" alt="post-thumb">
+                                            </a>
                                         </div>
-{{--                                        <div class="media-body">--}}
-{{--                                            <h5><a href="blog-details.html">{{$last3 ->name}}</a></h5>--}}
-{{--                                            <p>Blood Group :{{$last3 ->group}} </p>--}}
-{{--                                            <p>Collected By :{{$last3 ->cname}} </p>--}}
-{{--                                            <p>Location :{{$last3 ->address}} </p>--}}
-{{--                                            <p>Date :{{$last3 ->date}} </p>--}}
-{{--                                        </div>--}}
+                                        <div class="media-body">
+                                            <h5><a href="blog-details.html">Md Mamun Sheikh</a></h5>
+                                            <p>Blood Group :B+ </p>
+                                            <p>Collected By :Himself </p>
+                                            <p>Location :Shanti Clinic, Magura </p>
+                                            <p>Date :24/02/2021 </p>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
