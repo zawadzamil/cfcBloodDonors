@@ -195,13 +195,13 @@ $last3 = Post::orderBy('id', 'DESC')->skip(1)->first();
 {{--                                                <img loading="lazy" src="public/postImages/{{$last2 ->photo}}" alt="post-thumb">--}}
 {{--                                            </a>--}}
                                         </div>
-                                        <div class="media-body">
-                                            <h5><a href="blog-details.html">{{$last2 ->name}}</a></h5>
-                                            <p>Blood Group :{{$last2 ->group}} </p>
-                                            <p>Collected By :{{$last2 ->cname}} </p>
-                                            <p>Location :{{$last2 ->address}} </p>
-                                            <p>Date :{{$last2 ->date}} </p>
-                                        </div>
+{{--                                        <div class="media-body">--}}
+{{--                                            <h5><a href="blog-details.html">{{$last2 ->name}}</a></h5>--}}
+{{--                                            <p>Blood Group :{{$last2 ->group}} </p>--}}
+{{--                                            <p>Collected By :{{$last2 ->cname}} </p>--}}
+{{--                                            <p>Location :{{$last2 ->address}} </p>--}}
+{{--                                            <p>Date :{{$last2 ->date}} </p>--}}
+{{--                                        </div>--}}
                                     </div>
                                 </li>
                                 <li class="item">
@@ -211,13 +211,13 @@ $last3 = Post::orderBy('id', 'DESC')->skip(1)->first();
 {{--                                                <img loading="lazy" src="public/postImages/{{$last3 ->photo}}" alt="post-thumb">--}}
 {{--                                            </a>--}}
                                         </div>
-                                        <div class="media-body">
-                                            <h5><a href="blog-details.html">{{$last3 ->name}}</a></h5>
-                                            <p>Blood Group :{{$last3 ->group}} </p>
-                                            <p>Collected By :{{$last3 ->cname}} </p>
-                                            <p>Location :{{$last3 ->address}} </p>
-                                            <p>Date :{{$last3 ->date}} </p>
-                                        </div>
+{{--                                        <div class="media-body">--}}
+{{--                                            <h5><a href="blog-details.html">{{$last3 ->name}}</a></h5>--}}
+{{--                                            <p>Blood Group :{{$last3 ->group}} </p>--}}
+{{--                                            <p>Collected By :{{$last3 ->cname}} </p>--}}
+{{--                                            <p>Location :{{$last3 ->address}} </p>--}}
+{{--                                            <p>Date :{{$last3 ->date}} </p>--}}
+{{--                                        </div>--}}
                                     </div>
                                 </li>
                             </ul>
