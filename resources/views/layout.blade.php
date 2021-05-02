@@ -191,9 +191,9 @@ $last3 = Post::orderBy('id', 'DESC')->skip(1)->first();
                                 <li class="item">
                                     <div class="media">
                                         <div class="media-left mr-3">
-                                            <a href="blog-details.html">
-                                                <img loading="lazy" src="public/postImages/{{$last2 ->photo}}" alt="post-thumb">
-                                            </a>
+{{--                                            <a href="blog-details.html">--}}
+{{--                                                <img loading="lazy" src="public/postImages/{{$last2 ->photo}}" alt="post-thumb">--}}
+{{--                                            </a>--}}
                                         </div>
                                         <div class="media-body">
                                             <h5><a href="blog-details.html">{{$last2 ->name}}</a></h5>
@@ -207,9 +207,9 @@ $last3 = Post::orderBy('id', 'DESC')->skip(1)->first();
                                 <li class="item">
                                     <div class="media">
                                         <div class="media-left mr-3">
-                                            <a href="blog-details.html">
-                                                <img loading="lazy" src="public/postImages/{{$last3 ->photo}}" alt="post-thumb">
-                                            </a>
+{{--                                            <a href="blog-details.html">--}}
+{{--                                                <img loading="lazy" src="public/postImages/{{$last3 ->photo}}" alt="post-thumb">--}}
+{{--                                            </a>--}}
                                         </div>
                                         <div class="media-body">
                                             <h5><a href="blog-details.html">{{$last3 ->name}}</a></h5>
