@@ -5,7 +5,7 @@
 
     <!-- ***** Features Big Item Start ***** -->
     <section class="section padding-top-70 padding-bottom-0 text-center" id="features">
-        <div class="container">
+        <div class="container"  style="overflow-x:auto;">
             <h1>All Donor List</h1>
             <table class="table table-dark ">
                 <thead>

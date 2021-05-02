@@ -50,9 +50,9 @@
                 <div class="col-lg-12">
                     <div class="block text-center">
                         <h6></h6>
-                        <h1>The activities of the organization <br>
+                        <h2 class="display-4 text-light" >The activities of the organization <br>
                             are conducted on a voluntary basis
-                        </h1>
+                        </h2>
 
                     </div>
                 </div>

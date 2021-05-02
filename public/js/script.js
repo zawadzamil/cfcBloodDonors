@@ -1,6 +1,6 @@
 (function ($) {
 	"use strict";
-	
+
 	// navbarDropdown
 	if ($(window).width() < 992) {
 		$('.navbar .dropdown-toggle').on('click', function () {
@@ -100,6 +100,13 @@
 			}
 		}]
 	});
+	//Table Scroll
+    $(document).ready(function () {
+        $('#dtHorizontalExample').DataTable({
+            "scrollX": true
+        });
+        $('.dataTables_length').addClass('bs-select');
+    });
 
 	// FancyBox Video
 	if ($('[data-fancybox]').length) {

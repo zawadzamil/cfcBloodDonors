@@ -61,9 +61,9 @@
                             </div>
                         </div>
                     </form>
-                    <div style="text-align: center;" >
-                        <a href="{{url('register')}}"><button  class=" btn btn-info text-secondary submit px-3">Register Now</button></a>
-                    </div>
+{{--                    <div style="text-align: center;" >--}}
+{{--                        <a href="{{url('register')}}"><button  class=" btn btn-info text-secondary submit px-3">Register Now</button></a>--}}
+{{--                    </div>--}}
                     <div style="text-align: center;" >
                         <a href="{{url('/')}}"><button  class=" btn btn-transparent text-secondary submit px-3">Back to Home</button></a>
                     </div>

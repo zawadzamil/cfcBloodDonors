@@ -62,19 +62,19 @@
     <section class="cta" style="background: linear-gradient(to right, #669999 0%, #9900ff 100%);" >
         <div class="container">
             <div class="cta-block row no-gutters">
-                <div class="col-lg-3 col-md-6 emmergency item" style="margin-left: 40px">
+                <div class="col-lg-3 col-md-6 emmergency item" style="margin-left:5%; margin-bottom: 1%;">
                     <i class="fa fa-phone"></i>
                     <h2>Emegency Cases</h2>
                     <a href="tel:1-800-700-6200">1-800-700-6200</a>
                     <p>For Emergency Blood, Call here</p>
                 </div>
-                <div class="col-lg-3 col-md-6 top-doctor item" style="margin-left: 100px;">
+                <div class="col-lg-3 col-md-6 top-doctor item" style="margin-left: 5%; margin-bottom: 1%;">
                     <i class="fa fa-stethoscope"></i>
                     <h2>24 Hour Service</h2>
                     <p>CFC Members are available 24/7 to help you.<br> Everything they want that is just a smile on your face</p>
 
                 </div>
-                <div class="col-lg-3 col-md-12 working-time item" style="margin-left: 100px;">
+                <div class="col-lg-3 col-md-12 working-time item" style="margin-left: 5%; margin-bottom: 1%;">
                     <i class="fa fa-hourglass-o"></i>
                     <h2>Working Principle</h2>
                     <p>We do not sell blood!<br> Make sure the patent is from Magura</p>
@@ -143,7 +143,7 @@
                 <h3>Some of Our
                     <span>Donations</span>
                 </h3>
-                <p>We have successfully donated blood <h3>60</h3> times. <br>Here are some of them.  </p>
+                <p>We have successfully donated blood <h3>64</h3> times. <br>Here are some of them.  </p>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -326,12 +326,49 @@ background: linear-gradient(90deg, rgba(1,2,27,1) 0%, rgba(64,16,96,1) 49%, rgba
                             <div class="inner-box text-center">
                                 <div class="image-box">
                                     <figure>
+                                        <img loading="lazy" src="public/images/team/saad.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <h6>Nazmus Saad</h6>
+                                <p class="mb-0">We have built a family of harmony through blood.Many thanks to every member of this family for their hard work.</p>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="slide-item">
+                            <div class="inner-box text-center">
+                                <div class="image-box">
+                                    <figure>
                                         <img loading="lazy" src="public/images/testimonials/3.png" alt="">
                                     </figure>
                                 </div>
                                 <h6>Masum Billah</h6>
                                 <p class="mb-0">Avoiding the blood post ?
                                     When you need the blood of your loved ones or people close to you, you will understand the value of blood!</p>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="slide-item">
+                            <div class="inner-box text-center">
+                                <div class="image-box">
+                                    <figure>
+                                        <img loading="lazy" src="public/images/testimonials/3.png" alt="">
+                                    </figure>
+                                </div>
+                                <h6>Masum Billah</h6>
+                                <p class="mb-0">Avoiding the blood post ?
+                                    When you need the blood of your loved ones or people close to you, you will understand the value of blood!</p>
+                            </div>
+                        </div>
+                        <!--Slide Item-->
+                        <div class="slide-item">
+                            <div class="inner-box text-center">
+                                <div class="image-box">
+                                    <figure>
+                                        <img loading="lazy" src="public/images/team/yubi.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <h6>Kazi Yubayer</h6>
+                                <p class="mb-0">"The best way to motivate another person to do something is to do it by yourself."</p>
                             </div>
                         </div>
                         <!--Slide Item-->

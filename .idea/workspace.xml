@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47b378c-e1d0-451a-bd37-7de5d7b3050b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/postImages/rezoan.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/allDonor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/allDonor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/team.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/team.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +158,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/postImages" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\xampp\htdocs\bloodv2\public\postImages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -183,7 +194,8 @@
       <workItem from="1619761720999" duration="3840000" />
       <workItem from="1619887813532" duration="7010000" />
       <workItem from="1619906680687" duration="7442000" />
-      <workItem from="1619935463849" duration="6423000" />
+      <workItem from="1619935463849" duration="8195000" />
+      <workItem from="1619953449003" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="4th Commit">
       <created>1619417330712</created>
@@ -309,10 +321,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1619417456918" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619935467164">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619953453295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619935467164" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619953453295" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1619370066120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

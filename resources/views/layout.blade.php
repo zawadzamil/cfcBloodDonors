@@ -9,10 +9,11 @@
 
     <!-- ** Mobile Specific Metas ** -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Medical HTML Template">
+    <meta name="description" content="A Voluntary Based Organization">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="author" content="Themefisher">
-    <meta name="generator" content="Themefisher Medical HTML Template v1.0">
+    <meta name="generator" content="CFC Blood Donation Web site v1.4.0">
+
 
     <!-- ** Plugins Needed for the Project ** -->
     <!-- bootstrap -->
@@ -64,13 +65,13 @@
                 <div class="col-xl-8 col-lg-9">
                     <div class="right-side">
                         <div class="container">
-                            <h1 class="neon" style="color: #fff;
+                            <h1 class="neon display-5" style="color: #fff;
                             margin-left: 50px;
                             text-align: center;
   text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #fff,
+    0 0 5px #ff6f13,
+    0 0 10px #ff282a,
+    0 0 20px #ff110c,
     0 0 40px #ff4a1e,
     0 0 80px #ff1b10,
     0 0 90px #ff070f,
@@ -87,36 +88,35 @@
 
 
     <!--Main Header-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger  ">
-        <div class="container  ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse " data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse  " id="navbarLinks" >
+            <div class="collapse navbar-collapse" id="navbarLinks">
                 <ul class="navbar-nav">
-                    <li class="nav-item @@home ">
-                        <a class="nav-link "  href="{{ url('/') }}">Home</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="{{url('/')}}">Home</a>
                     </li>
                     <li class="nav-item @@about">
-                        <a class="nav-link" href="{{ url('about') }}">About</a>
+                        <a class="nav-link" href="{{url('about')}}">About</a>
                     </li>
-                    <li class="nav-item @@service">
-                        <a class="nav-link" href="{{ url('donation') }}">Blood Donations</a>
+                    <li class="nav-item @@donation">
+                        <a class="nav-link" href="{{url('donation')}}">Donations</a>
                     </li>
-                    <li class="nav-item @@gallery">
-                        <a class="nav-link" href="{{ url('become_a_donor') }}">Become a Donor</a>
+                    <li class="nav-item @@becomeDonor">
+                        <a class="nav-link" href="{{url('become_a_donor')}}">Become A Donor</a>
                     </li>
                     <li class="nav-item @@team">
-                        <a class="nav-link" href="{{ url('team') }}">Donors</a>
+                        <a class="nav-link" href="{{url('team')}}">Our Donors </a>
                     </li>
-
-
                     <li class="nav-item @@contact">
-                        <a class="nav-link" href="{{ url('contact') }}">Request for Blood</a>
+                        <a class="nav-link" href="{{url('contact')}}">Request Blood</a>
                     </li>
+
                     <li class="nav-item @@admin">
-                        <a class="nav-link" href="{{ url('admin') }}">Admin</a>
+                        <a class="nav-link" href="{{url('admin')}}">Admin</a>
                     </li>
                 </ul>
             </div>

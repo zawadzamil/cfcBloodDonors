@@ -1,9 +1,9 @@
 @extends('layout')
 @section('main_content')
     <section class="section padding-top-70 padding-bottom-0 text-center" id="features">
-        <div class="container">
+        <div class="container" style="overflow-x:auto;">
             <h1 class="display-4" style="margin-bottom: 7%;">All Donor List</h1>
-            <table class="table table-info ">
+            <table class="table table-info " id="dtHorizontalExample" >
                 <thead>
                 <tr>
                     <th>Sl</th>
